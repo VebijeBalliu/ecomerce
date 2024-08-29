@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: #eecda3;
+    background: -webkit-linear-gradient(to right, #eecda3, #ef629f);
+    background: linear-gradient(to right, #eecda3, #ef629f);
+    min-height: 100vh;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.shopping-cart {
+    width: 750px;
+    height: 423px;
+    margin: 80px auto;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 6px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    height: 60px;
+    padding: 20px 30px;
+    color: #5E6977;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.item {
+    padding: 20px 30px;
+    height: 120px;
+    display: flex;
+}
+
+.item:nth-child(3) {
+    border-top: 1px solid #E1E8EE;
+    border-bottom: 1px solid #E1E8EE;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.table td,
+.table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table img {
+    max-width: 50px;
+    max-height: 40px;
+    display: block;
+    margin: auto;
+}
+
+.btn {
+    font-size: 15px;
+    background: #ff0a54;
+    color: white;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    transition: all 0.25s;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    border-color: #FFE5EC;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #FFE5EC;
+    transform: translateY(-0.25em);
+
+}
+
+.remove {
+    font-size: 13px;
+    background: #ff0a54;
+    color: white;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: all 0.25s;
+    border-radius: 50px;
+}
+
+.remove:hover {
+    border-color: #FFE5EC;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #FFE5EC;
+    transform: translateY(-0.25em);
+}
+
+
+img {
+    margin-right: 50px;
+}
+
+input[type=number] {
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 3px #ddd;
+    font-size: 16px;
+    line-height: 1.4;
+}
